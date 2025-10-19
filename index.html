@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./watch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="timer">
+        <div id="mint_id">00</div>
+        <span>:</span>
+        <div id="sec_id"> 00</div>
+        <span>:</span>
+        <div id="milisec_id" >00</div>
+    </div>
+
+    <div id="btns">
+        <button onclick="start_func()" id="start_btn">start</button>
+        <button onclick="stop_func()" id="stop_btn">stop</button>
+        <button  onclick="reset_func()" id="reset_btn">reset</button>
+
+    </div>
+    <script src="./stop_watch.js"></script>
+</body>
+</html>
